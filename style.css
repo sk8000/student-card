@@ -1,0 +1,131 @@
+body {
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+    .contact {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info h4 {
+    margin: 0;
+}
+
+.info p {
+    color: #86898f;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 760px;
+    margin: auto;
+    padding-top: 30px;
+}
+.container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr.border-bottom {
+    border-bottom: 1px solid #86898f;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+tr.border-bottom td {
+    padding-bottom: 10px;
+    color: black;
+}
+
+.table td {
+    width: 30%;
+    max-width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #86898f;
+    text-align: center;
+}
+
+.table.time td {
+    padding-left: 22.5%;
+    text-align: left;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact div {
+    padding: 0 10%;
+}
+.contact img {
+    margin-top: 20px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #86898f;
+}
+
+@media (max-width: 700px) {
+    .contact {
+        text-align: center;
+        display: block;
+    }
+}
